@@ -82,6 +82,15 @@ ClassicEditor.defaultConfig = {
 			'redo'
 		]
 	},
+	 htmlSupport: {
+        allow: [  {
+            name: /.*/,
+            attributes: true,
+            classes: true,
+            styles: true
+            },
+        ]
+    },
 	image: {
 		toolbar: [
 			'imageStyle:full',
