@@ -62,25 +62,13 @@ ClassicEditor.builtinPlugins = [
 // Editor configuration.
 ClassicEditor.defaultConfig = {
 	toolbar: {
-		items: [
-			'heading',
-			'|',
-			'bold',
-			'italic',
-			'link',
-			'bulletedList',
-			'numberedList',
-			'|',
-			'indent',
-			'outdent',
-			'|',
-			'imageUpload',
-			'blockQuote',
-			'insertTable',
-			'mediaEmbed',
-			'undo',
-			'redo'
-		]
+        items: [
+            'fullpage',
+            'findAndReplace',
+            'undo',
+            'redo',
+            'bold', 'italic', 'underline', 'strikethrough', 'code', 'subscript', 'superscript'
+        ]
 	},
 	 htmlSupport: {
         allow: [  {
